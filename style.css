@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #ABBA7C;
+}
+
+.container {
+    background-color: #3D5300;
+    padding: 0px 20px 0px 20px;
+    height: 400px;
+    width: 530px;
+    border-radius: 10px;
+}
+
+.title-center {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFE31A;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+    color: #fff;
+    font: 20px;
+    margin: 5px 5px 5px 5px
+
+}
+
+.form-group input {
+    width: 95%;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    margin: 0px 20px 0px 5px
+}
+
+.center-btn {
+    text-align: center;
+}
+
+.calculate-btn {
+    padding: 10px;
+    height: 35px;
+    width: 180px;
+    border: none;
+    background-color: #F09319;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.1s;
+}
+
+.calculate-btn:active {
+    opacity: 0.8;
+}
+
+#result {
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFE31A;
+    
+}
+#category {
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+#bmi-results {
+    text-align: center;
+}
+
+#BMI {
+    
+    font-weight: bold;
+    font-size: 20px;
+    color: #F09319;
+}
